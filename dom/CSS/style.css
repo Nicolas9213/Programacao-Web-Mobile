@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=IBM+Plex+Mono&family=Kablammo&family=Lobster&family=Lora&family=Montserrat&family=Nova+Cut&family=Orbitron&family=Oswald&family=Poppins&family=Roboto&family=Rock+3D&family=Russo+One&family=Shadows+Into+Light&family=Ubuntu&display=swap');
+body {
+    font-family: var(--fonte-primaria);
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    text-align: center;
+}
+:root {
+    --fonte1:'Great Vibes', cursive;
+    --fonte2:'IBM Plex Mono', monospace;
+    --fonte3:'Kablammo', cursive;
+    --fonte4:'Lobster', cursive;
+    --fonte5:'Lora', serif;
+    --fonte6:'Montserrat', sans-serif;
+    --fonte7:'Nova Cut', cursive;
+    --fonte8:'Orbitron', sans-serif;
+    --fonte9:'Oswald', sans-serif;
+    --fonte10:'Poppins', sans-serif;
+    --fonte11:'Roboto', sans-serif;
+    --fonte12:'Rock 3D', cursive;
+    --fonte13:'Russo One', sans-serif;
+    --fonte14:'Shadows Into Light', cursive;
+    --fonte15:'Ubuntu', sans-serif;
+}
+#titulo {
+    font-size: 3rem;
+}
+#botao {
+    margin-left: 10px;
+    padding: 5px;
+    color: white;
+    background-color: red;
+    border-radius: 16px;
+}
+#botao:hover {
+    transition-duration: 1.5s ease;
+    transform: scale(1.2);
+    background-color: #aaa;
+    color: black;
+}
