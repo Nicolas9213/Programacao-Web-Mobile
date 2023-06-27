@@ -1,0 +1,21 @@
+body {
+    text-align: center;
+    background-color: #56E39F;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+p {
+    font-family: 'Pacifico', cursive;
+    font-size:x-large;
+
+}
+pre {
+    text-align: center;
+    background-color: #56E39F;
+    font-family: 'Josefin Sans', sans-serif;
+}
+div {
+    float: right;
+    position: relative;
+    right: 40px;
+}
